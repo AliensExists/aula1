@@ -1,0 +1,36 @@
+*{
+    outline:1px solid lightgray
+}
+
+:root{
+    --primary-color:rgba(13,13,13,1);
+    --secundary-color:rgba(214,0,0,1);
+    --tertiary-color:rgba(242,92,5,1) ;
+    --quaternary-color:rgba(244,196,0,1);
+    --cinco:white;
+    --margin-large:16px;
+    --margin-medium:8px;
+    --margin-small:4px;
+
+}
+
+header{
+    width:100% ;
+    height: 100px;
+    background:var( --primary-color);
+    background: linear-gradient(90deg, var(--quaternary-color)  36%, var(--tertiary-color)  56%, var(--secundary-color) 69%,  var(--primary-color) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header.item{
+    
+    height: 70px;
+    outline:1px solid var(--cinco);
+    padding:8px;
+    border-radius: 8px;
+
+}
+
+/*senha Etec182117!
